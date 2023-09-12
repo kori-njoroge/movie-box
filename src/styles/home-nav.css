@@ -1,0 +1,11 @@
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-section{
+    /* display: flex; */
+    border:1px solid red;
+}
+.signin-section{
+    display:flex ;
+}
