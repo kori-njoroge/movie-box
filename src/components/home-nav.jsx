@@ -11,7 +11,7 @@ export default function HomeNav() {
                 <h2 className='movieBox-title'>MovieBox</h2>
             </div>
             <div className="search-bar">
-                <input type="text" name="search" />
+                <input type="text" name="search" placeholder='What do you want to watch?' />
                 <i className="fa-solid fa-magnifying-glass"></i>
             </div>
             <div className="signin-section">
