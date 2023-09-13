@@ -7,7 +7,7 @@ export default function HomeNav() {
     return (
         <div className='home-nav'>
             <div className="logo-section">
-                <img src={logo} alt="movie box logo" />
+                <img className='logo-movie' src={logo} alt="movie box logo" />
                 <h2 className='movieBox-title'>MovieBox</h2>
             </div>
             <div className="search-bar">
