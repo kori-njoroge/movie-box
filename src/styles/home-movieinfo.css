@@ -1,0 +1,100 @@
+:root {
+    --rose-700: #BE123C
+}
+
+.movieinfo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12vh;
+}
+
+.movies-data {
+    width:  404px;
+}
+
+.movies-data h1 {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.imdb-ratings {
+    display: flex;
+    align-items: center;
+}
+
+.imdb-ratings img {
+    width: 35px;
+    height: 17px;
+    margin-right: 1.5vh;
+}
+
+.imdb-ratings p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.rotten-tomato-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rotten-tomato-rating img {
+    width: 16px;
+    height: 17px;
+    margin-right: 1vh;
+}
+
+.rotten-tomato-rating p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.movie-desc {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.watch-trailer-btn {
+    background-color: var(--rose-700);
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 1.2vh;
+    border: none;
+    border-radius: 6px;
+    color: var(--white, #FFF);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.watch-trailer-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1.2vh;
+}
