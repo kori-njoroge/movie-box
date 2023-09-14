@@ -4,11 +4,13 @@ import axios from 'axios'
 
 import '../styles/home-body.css'
 
+const token = process.env.BEARERTOKEN
+
 export default function HomeBody() {
     useEffect(()=>{
         axios.get('https://api.themoviedb.org/3/movie/popular',{
             headers:{
-                    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMDBmMTI0ZGRlZjMyOGIxYWZjZDNhMTk4ODUyNTY0NSIsInN1YiI6IjY0ZmVmMzEyZTBjYTdmMDE0ZjZmY2I4ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.zQxZ1emALAcuhhLAa4fm7wYLmI-njbhK1r-l4Ou8glg'
+                    Authorization: token
                 }
         }).then(response =>{
             console.log(response)
