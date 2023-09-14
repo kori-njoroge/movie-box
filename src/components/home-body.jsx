@@ -24,7 +24,7 @@ export default function HomeBody() {
         <div className='home-body-container'>
             <div className="home-body-nav">
                 <h2>Featured Movie</h2>
-                <Link to={'/dashboard'}> See more <i className='fas fa-chevron-right'></i> </Link>
+               {/* /<Link to={'/dashboard'}> See more <i className='fas fa-chevron-right'></i> </Link> */}
             </div>
         </div>
     )
