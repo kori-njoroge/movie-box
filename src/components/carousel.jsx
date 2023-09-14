@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/carousel.css'
 import HomeNav from "./home-nav";
 import HomeMovieInfo from "./home-movieinfo";
+import HomeBody from "./home-body";
 
 export default function Carousel() {
     const moviesData = [
@@ -60,6 +61,7 @@ export default function Carousel() {
         <div style={styles} className="carousel-container">
             <HomeNav />
             <HomeMovieInfo moviesData={moviesData[0]} />
+            <HomeBody />
         </div>
     )
 }

@@ -5,6 +5,10 @@ import rtomato from "../assets/rotten-tomato.svg";
 import trailer from "../assets/trailer.svg";
 
 export default function HomeMovieInfo({ moviesData }) {
+
+    
+
+
     return (
         <div className="movieinfo-container">
             <div className="movies-data">
